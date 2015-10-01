@@ -24,4 +24,6 @@ RUN cd /work/nuttx/misc/tools/kconfig-frontends; \
     make; \
     make install
 
+WORKDIR /work
+
 CMD [ "/bin/bash" ]
